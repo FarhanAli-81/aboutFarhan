@@ -1,0 +1,104 @@
+
+nav{
+    background-color: hsl(245, 96%, 20%);
+    height: 50px;
+   
+    
+}
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    padding:0; /* Optional: removes default padding */
+    
+  }
+.goLeft{
+    display: flex;
+    /* color: yellow; */
+    font-weight: 100;
+    justify-content: flex-end;
+    padding: 15px;
+    
+    
+}
+.goLeft li{
+    /* padding: 20px; */
+    margin-left: 50px;
+    
+}
+
+a{
+    color:rgb(208, 232, 24)
+}
+
+.background{
+   /* background-image: url('images/back.jpg');  Replace 'path/to/your/image.jpg' with your image file's path */
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-color:#001E38;
+    /* You can also add other properties like background-repeat, background-attachment, etc. based on your needs */
+  }
+
+.flexUsing{
+    /* display: inline-flex; */
+    display: grid;
+  grid-template-columns: 2fr 3fr; /* Adjust the proportions as needed */
+  
+  gap: 50px;
+  
+
+}
+.left{
+    background-image: url(images/myphoto.jpg);
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    margin-left: 50px;
+    background-size: cover;
+    /* box-shadow: #6fb1e0; */
+    /* box-shadow: 0 0 10px rgba(237, 229, 229, 0.1); */
+    
+    /* background-position: center; */
+    
+
+}
+
+.left :hover{
+    color: rgb(225, 175, 26);
+}
+
+.right{
+    
+    color: white;
+    font-size: 10px;
+}
+span{
+    color: wheat;
+}
+.card{
+    display: block;
+    border: solid;
+    box-shadow: rgb(108, 172, 237) 0px 8px 24px;
+    border-color:  #0D238A;
+   color: wheat;
+    border-radius: 5px;
+    /* background-size: 100px; */
+    background-color:#001E38;
+    width: 30%;
+    height: 50%;
+    margin: 4px;
+    /* overflow: scroll; */
+    overflow: auto ;
+    
+
+}
+.projects{
+    padding-top: 70px;
+    display: flex;
+    gap: 15px;
+    margin-left: 45px;
+    justify-content: center;
+    height: 300px; 
+    width: 90%;
+    /* padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
